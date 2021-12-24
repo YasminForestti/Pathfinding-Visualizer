@@ -1,0 +1,100 @@
+.fullHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header{
+    width: 100%;
+    background: #88a3ec;
+    color: white;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.title {
+    font-size: 25px;
+}
+.headerBtn{
+    display: table-cell;
+    background: rgb(117, 240, 144);
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.headerBtn:focus {
+    outline: none;
+}
+
+.subtitle{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 15px;
+    
+}
+.subBlocks{
+    display:  table-cell;
+    font-family: 'Roboto';
+    font-weight: 500;
+    align-items: center;
+    margin:1px 2px 3px 4px;
+    font-size: 15px;
+    
+    
+}
+.title {
+    font-size: 25px;
+}
+.subBlock{
+    
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.laranja{
+    background: rgb(250, 150, 0);
+    color: rgb(250, 150, 0);
+    float: left;
+    margin-left: 30px;
+}
+.azul{
+    background: rgb(20, 59, 233);
+    color: rgb(20, 59, 233);
+
+    float: left;
+    margin-left: 30px;
+}
+.amarelo{
+    background: rgb(255, 240, 36);
+    color: rgb(255, 240, 36);
+
+    float: left;
+    
+}
+.vermelho{
+    background: rgb(241, 0, 0);
+    color:rgb(241, 0, 0);
+
+    float: left;
+    margin-left: 30px;
+}
+.verde{
+    background: rgb(117, 240, 144);
+    color: rgb(117, 240, 144);
+
+    float: left;
+    margin-left: 30px;
+}

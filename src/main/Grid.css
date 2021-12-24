@@ -1,0 +1,76 @@
+
+.grid{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+.grid-area{
+    display: grid;
+    grid-template-columns: repeat(61, 16px);
+}
+.grid-controls{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paintButton {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+
+    height: 20px;
+    
+}
+
+.grid-paint .pincel  {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px; 
+    border-radius: 100%;
+
+}
+.grid-paint .pincel:hover{
+    background-color: #f8f1f1;
+}
+.grid-paint img  {
+   width: 90%
+}
+.grid-paint p{
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+
+.block {
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 5px;
+    background-color: white;
+}
+.Visitados {
+    background-color: rgb(195, 177, 245); 
+}
+.Path {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(circle at 7.5px 7.5px, #000  2px ,#000  2px, rgb(195, 177, 245)  4px);
+}
+.beginning{
+    background-color: rgba(117, 240, 144, 1);
+}   
+.end {
+    background-color: #f0dd35;
+}
+.walls {
+    background-color: #5B8AE5;
+}
+.weight {
+    background-position: center;
+    background-image: url('../assets/images/weight-tool-with-handle.svg');
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,15 @@
+.Reproduce {
+  border-radius: 20px;
+  width: 128px;
+  height: 34px;
+  background-color:rgb(117, 240, 144);
+  border: none;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: white;
+  margin: 20px;
+  outline: none;
+}
+.Reproduce:hover{
+  background-color: rgb(80, 214, 109);
+}
